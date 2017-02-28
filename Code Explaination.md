@@ -36,7 +36,8 @@
 
 ![](https://github.com/anagar20/Iris-Classify-plants-into-species/blob/master/images/img3.png)
 
-   #SPLITTING INTO TRAINING AND TEST SET FOR PREDICTION
+#SPLITTING INTO TRAINING AND TEST SET FOR PREDICTION
+    
     set.seed(567)
     index=sample(1:nrow(data),8/10* nrow(data))
     train <- data[index, ]
